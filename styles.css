@@ -174,8 +174,8 @@ h2 {
 }
 
 .envelope.open > .envelope__side--top {
-  top: -150px;
-  border-width: 0 200px 150px 200px;
+  top: -120px;
+  border-width: 0 200px 120px 200px;
   border-color: transparent transparent #DFAABD transparent;
 }
 
@@ -245,7 +245,7 @@ h2 {
       transform: translateY(0);
   }
   to {
-      transform: translateY(-200px);
+      transform: translateY(-120px);
   }
 }
 
@@ -254,7 +254,7 @@ h2 {
       -webkit-transform: translateY(0);
   }
   to {
-      -webkit-transform: translateY(-200px);
+      -webkit-transform: translateY(-125px);
   }
 }
 
