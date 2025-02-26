@@ -1,5 +1,16 @@
-const button = document.getElementById("next-btn")
+document.addEventListener("DOMContentLoaded", function() {
+  const button = document.getElementById("next-btn");
+  const backButton = document.getElementById("back-btn");
 
-button.addEventListener("click", function() {
-  window.location.href = "letter.html"
+  if (button) {
+    button.addEventListener("click", function() {
+      window.location.href = "letter.html"; 
+    });
+  }
+
+  if (backButton) {
+    backButton.addEventListener("click", function() {
+      window.location.href = "index.html"; 
+    });
+  }
 });

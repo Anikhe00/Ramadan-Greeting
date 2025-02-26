@@ -74,6 +74,12 @@ body {
   height: 100vh;
 }
 
+#back-btn {
+  position: absolute;
+  bottom: 15%;
+  left: 45%;
+}
+
 .envelope-wrapper {
   position: absolute;
   top: 50%;
