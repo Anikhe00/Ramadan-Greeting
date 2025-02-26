@@ -279,6 +279,14 @@ h2 {
     color: var(--deep-pink);
   }
 
+  .envelope-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+  } 
+
   .envelope {
     position: relative;
     display: block;
@@ -345,7 +353,7 @@ h2 {
 
   #back-btn {
     position: absolute;
-    bottom: 20%;
+    bottom: 25%;
     left: 35%;
   }
 
